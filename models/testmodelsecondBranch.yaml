@@ -1,7 +1,7 @@
 title: testmodel1
 x-stoplight:
   id: 8o651hngrc3mn
-description: test model1 yaml
+description: test model1 yaml second.....
 anyOf:
   - properties:
       id:
@@ -12,7 +12,9 @@ anyOf:
         type: array
         x-stoplight:
           id: wvp2msz7t6sgu
-        items: {}
+        items:
+          x-stoplight:
+            id: e2u4pgjkrq4bi
       address:
         x-stoplight:
           id: m3r6iw3o0oe24
@@ -21,5 +23,9 @@ anyOf:
         type: object
         x-stoplight:
           id: nx64v4a8u61sd
-        additionalProperties: {}
+        additionalProperties:
+          x-stoplight:
+            id: w3h3lygxy1ri9
+    x-stoplight:
+      id: thfyre3l6bft1
 type: object
