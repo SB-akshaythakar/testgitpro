@@ -1,7 +1,8 @@
 title: testmodel1
 x-stoplight:
   id: 8o651hngrc3mn
-allOf:
+description: test model1 yaml
+anyOf:
   - properties:
       id:
         type: string
@@ -22,4 +23,3 @@ allOf:
           id: nx64v4a8u61sd
         additionalProperties: {}
 type: object
-description: test model1 yaml
