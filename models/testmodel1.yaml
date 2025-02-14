@@ -1,0 +1,25 @@
+title: testmodel1
+x-stoplight:
+  id: 8o651hngrc3mn
+allOf:
+  - properties:
+      id:
+        type: string
+        x-stoplight:
+          id: v7gpxv927ecdk
+      phnno:
+        type: array
+        x-stoplight:
+          id: wvp2msz7t6sgu
+        items: {}
+      address:
+        x-stoplight:
+          id: m3r6iw3o0oe24
+        enum: []
+      lane:
+        type: object
+        x-stoplight:
+          id: nx64v4a8u61sd
+        additionalProperties: {}
+type: object
+description: test model1 yaml
